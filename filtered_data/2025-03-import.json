@@ -1,0 +1,5658 @@
+[
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/08/1740816014.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/09/1740819647.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/10/1740823250.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/11/1740826855.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/12/1740830475.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/13/1740834083.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/14/1740837698.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/15/1740841316.000000000.jpg",
+    "ptz": {
+      "pan": 174.02999877929688,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/16/1740844924.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/17/1740848533.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/18/1740852136.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/19/1740855743.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/20/1740859346.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/21/1740862946.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/22/1740866553.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/060/23/1740870166.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/00/1740873792.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/01/1740877392.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/02/1740880997.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/03/1740884605.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/04/1740888217.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/05/1740891830.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/06/1740895435.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/07/1740899047.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/08/1740902400.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/09/1740906030.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/10/1740909640.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/11/1740913276.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/12/1740916880.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/13/1740920491.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/14/1740924127.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/15/1740927734.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/16/1740931337.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/17/1740934943.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/18/1740938548.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/19/1740942161.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/20/1740945786.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/21/1740949394.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/22/1740953005.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/061/23/1740956609.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/00/1740960221.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/01/1740963822.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/02/1740967425.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/03/1740971064.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/04/1740974669.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/05/1740978279.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/06/1740981884.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/07/1740985496.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/08/1740988812.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/09/1740992421.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/10/1740996035.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/11/1740999636.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/12/1741003240.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/13/1741006851.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/14/1741010458.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/15/1741014061.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/16/1741017666.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/17/1741021279.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/18/1741024882.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/19/1741028484.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/20/1741032095.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/21/1741035697.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/22/1741039315.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/062/23/1741042933.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/00/1741046539.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/01/1741050142.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/02/1741053755.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/03/1741057358.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/04/1741060972.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/05/1741064585.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/06/1741068194.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/07/1741071801.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/08/1741075209.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/09/1741078821.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/10/1741082428.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/11/1741086040.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/12/1741089648.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/13/1741093251.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/14/1741096866.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/15/1741100481.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/16/1741104087.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/17/1741107689.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/18/1741111302.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/19/1741114904.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/20/1741118513.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/21/1741122116.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/22/1741125746.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/063/23/1741129368.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/00/1741132984.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/01/1741136595.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/02/1741140199.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/03/1741143811.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/04/1741147420.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/05/1741151029.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/06/1741154634.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/07/1741158245.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/08/1741161610.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/09/1741165217.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/10/1741168820.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/11/1741172456.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/12/1741176067.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/13/1741179676.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/14/1741183276.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/15/1741186883.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/16/1741190489.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/17/1741194122.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/18/1741197728.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/19/1741201333.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/20/1741204938.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/21/1741208539.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/22/1741212143.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/064/23/1741215752.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/00/1741219360.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/01/1741222965.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/02/1741226571.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/03/1741230211.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/04/1741233819.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/05/1741237427.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/06/1741241027.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/07/1741244633.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/08/1741248005.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/09/1741251611.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/10/1741255224.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/11/1741258833.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/12/1741262439.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/13/1741266048.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/14/1741269649.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/15/1741273256.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/16/1741276859.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/17/1741280466.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/18/1741284075.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/19/1741287689.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/20/1741291298.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/21/1741294941.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/22/1741298559.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/065/23/1741302164.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/00/1741305771.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/01/1741309374.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/02/1741312981.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/03/1741316591.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/04/1741320201.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/05/1741323808.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/06/1741327420.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/07/1741331028.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/08/1741334411.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/09/1741338046.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/10/1741341659.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/11/1741345275.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/12/1741348888.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/13/1741352491.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/14/1741356103.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/15/1741359720.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/16/1741363330.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/17/1741366941.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/18/1741370554.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/19/1741374155.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/20/1741377756.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/21/1741381391.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/22/1741385003.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/066/23/1741388606.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/00/1741392662.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/01/1741396275.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/02/1741399888.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/03/1741403503.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/04/1741407116.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/05/1741410729.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/06/1741414334.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/07/1741417945.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/08/1741420804.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/09/1741424434.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/10/1741428041.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/11/1741431653.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/12/1741435278.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/13/1741438887.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/14/1741442517.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/15/1741446135.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/16/1741449736.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/17/1741453341.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/18/1741456946.000000000.jpg",
+    "ptz": {
+      "pan": 174.0399932861328,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/19/1741460559.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/20/1741464163.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/21/1741467766.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/22/1741471366.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/067/23/1741474969.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/00/1741478573.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/01/1741482204.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/02/1741485814.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/03/1741489420.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/04/1741493027.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/05/1741496631.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/06/1741500239.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/07/1741503850.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/08/1741507212.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/09/1741510850.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/10/1741514463.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/11/1741518072.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/12/1741521682.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/13/1741525296.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/14/1741528900.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/15/1741532501.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/16/1741536114.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/17/1741539735.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/18/1741543355.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/19/1741546957.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/20/1741550564.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/21/1741554164.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/22/1741557766.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/068/23/1741561369.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/00/1741564976.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/01/1741568576.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/02/1741572179.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/03/1741575779.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/04/1741579420.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/05/1741583027.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/06/1741586635.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/07/1741590014.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/08/1741593627.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/09/1741597233.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/10/1741600847.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/11/1741604457.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/12/1741608061.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/13/1741611687.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/14/1741615329.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/15/1741618941.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/16/1741622544.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/17/1741626153.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/18/1741629756.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/19/1741634228.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/20/1741637839.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/22/1741644375.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/069/23/1741647984.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/00/1741651610.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/07/1741676448.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/08/1741680049.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/09/1741683677.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/10/1741687285.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/11/1741690899.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/12/1741694503.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/13/1741698143.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/14/1741701746.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/15/1741705370.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/16/1741708975.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/17/1741712582.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/18/1741716190.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/19/1741719806.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/20/1741723412.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/21/1741727026.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/22/1741730646.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/070/23/1741734254.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/00/1741737858.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/01/1741741501.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/02/1741745107.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/03/1741748747.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/04/1741752357.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/05/1741755970.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/06/1741759580.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/07/1741762822.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/08/1741766425.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/09/1741770040.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/10/1741773644.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/11/1741777261.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/12/1741780894.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/13/1741784497.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/14/1741788103.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/15/1741791710.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/16/1741795315.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/17/1741798920.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/18/1741802527.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/19/1741806132.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/20/1741809739.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/21/1741813372.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/22/1741816981.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/071/23/1741820581.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/00/1741824187.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/01/1741827822.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/02/1741831428.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/03/1741835059.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/04/1741838670.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/05/1741842278.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/06/1741845883.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/07/1741849203.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/08/1741852815.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/09/1741856417.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/10/1741860033.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/11/1741863633.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/12/1741867241.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/13/1741870842.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/14/1741874449.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/15/1741878055.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/16/1741881690.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/17/1741885298.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/18/1741888906.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/19/1741892540.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/20/1741896150.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/21/1741899763.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/22/1741903367.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/072/23/1741907007.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/00/1741910618.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/01/1741914223.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/02/1741917825.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/03/1741921453.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/04/1741925057.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/05/1741928668.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/06/1741932279.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/07/1741935645.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/08/1741939249.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/09/1741942858.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/10/1741946461.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/11/1741950092.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/12/1741953705.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/13/1741957320.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/14/1741960929.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/15/1741964553.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/16/1741968164.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/17/1741971769.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/18/1741975380.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/19/1741978993.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/20/1741982595.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/21/1741986203.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/22/1741989812.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/073/23/1741993432.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/00/1741997040.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/01/1742000658.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/02/1742004279.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/03/1742007890.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/04/1742011503.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/05/1742015107.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/06/1742018718.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/07/1742022004.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/08/1742025617.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/09/1742029238.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/10/1742032846.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/11/1742036451.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/12/1742040054.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/13/1742043686.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/14/1742047299.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/15/1742050935.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/16/1742054573.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/17/1742058187.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/18/1742061796.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/19/1742065405.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/20/1742069045.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/21/1742072646.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/22/1742076249.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/074/23/1742079862.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/00/1742083471.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/01/1742087072.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/02/1742090685.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/03/1742094297.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/04/1742097927.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/05/1742101539.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/06/1742105150.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/07/1742108408.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/08/1742112021.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/09/1742115621.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/10/1742119231.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/11/1742122838.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/12/1742126445.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/13/1742130049.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/14/1742133687.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/15/1742137288.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/16/1742140893.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/17/1742144499.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/18/1742148111.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/19/1742151747.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/20/1742155348.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/21/1742158955.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/22/1742162558.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/075/23/1742166166.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/00/1742169768.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/01/1742173370.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/02/1742177008.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/03/1742180634.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/04/1742184243.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/05/1742187856.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/06/1742191463.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/07/1742194843.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/08/1742198456.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/09/1742202067.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/10/1742205671.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/11/1742209277.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/12/1742212918.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/13/1742216526.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/14/1742220127.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/15/1742223732.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/16/1742227335.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/17/1742230940.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/18/1742234542.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/19/1742238146.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/20/1742241767.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/21/1742245375.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/22/1742248977.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/076/23/1742252578.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/00/1742256183.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/01/1742259789.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/02/1742263395.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/03/1742267020.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/04/1742270623.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/05/1742274229.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/06/1742277842.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/07/1742281203.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/08/1742284820.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/09/1742288420.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/10/1742292044.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/11/1742295649.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/12/1742299254.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/13/1742302892.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/14/1742306498.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/15/1742310103.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/16/1742313712.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/17/1742317317.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/18/1742320921.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/19/1742324522.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/20/1742328136.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/21/1742331780.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/22/1742335384.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/077/23/1742338992.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/00/1742342599.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/01/1742346213.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/02/1742349821.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/03/1742353423.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/04/1742357035.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/05/1742360640.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/06/1742364249.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/07/1742367611.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/08/1742371212.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/09/1742374822.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/10/1742378428.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/11/1742382037.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/12/1742385650.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/13/1742389250.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/14/1742392889.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/15/1742396492.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/16/1742400096.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/17/1742403699.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/18/1742407304.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/19/1742410911.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/20/1742414554.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/21/1742418155.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/22/1742421786.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/078/23/1742425388.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/00/1742428997.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/01/1742432609.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/02/1742436250.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/03/1742439863.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/04/1742443501.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/05/1742447110.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/06/1742450722.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/07/1742454027.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/08/1742457634.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/09/1742461245.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/10/1742464875.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/11/1742468486.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/12/1742472097.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/13/1742475709.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/14/1742479320.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/15/1742482928.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/16/1742486538.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/17/1742490141.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/18/1742493744.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/19/1742497347.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/20/1742500957.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/21/1742504566.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/22/1742508185.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/079/23/1742511804.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/00/1742515418.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/01/1742519027.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/02/1742522638.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/03/1742526275.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/04/1742529885.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/05/1742533499.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/06/1742537113.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/07/1742540412.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/08/1742544027.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/09/1742547638.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/10/1742551248.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/11/1742554875.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/12/1742558491.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/13/1742562103.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/14/1742565706.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/15/1742569349.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/080/16/1742572955.000000000.jpg",
+    "ptz": {
+      "pan": 174.0500030517578,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/08/1742630406.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/09/1742634014.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/10/1742637625.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/11/1742641234.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/12/1742644834.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/13/1742648461.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/14/1742652067.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/15/1742655680.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/16/1742659294.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/17/1742662897.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/18/1742666497.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/19/1742670099.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/20/1742673711.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/21/1742677332.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/22/1742680933.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/081/23/1742684545.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/00/1742688154.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/01/1742691797.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/02/1742695400.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/03/1742699011.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/04/1742702637.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/05/1742706246.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/06/1742709855.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/07/1742713212.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/08/1742716817.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/09/1742720431.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/10/1742724061.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/11/1742727665.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/12/1742731277.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/13/1742734886.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/14/1742738498.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/15/1742742136.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/16/1742745755.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/17/1742749360.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/18/1742752964.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/19/1742756567.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/20/1742760170.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/21/1742763773.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/22/1742767386.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/082/23/1742770994.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/00/1742774605.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/01/1742778206.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/02/1742781827.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/03/1742785434.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/04/1742789078.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/05/1742792686.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/06/1742796298.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/07/1742799613.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/08/1742803223.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/09/1742806825.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/10/1742810429.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/11/1742814044.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/12/1742817672.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/13/1742821280.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/14/1742824887.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/15/1742828492.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/16/1742832095.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/083/17/1742835725.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/07/1742886020.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/08/1742889627.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/09/1742893235.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/10/1742896845.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/11/1742900455.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/12/1742904065.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/13/1742907678.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/14/1742911289.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/15/1742914899.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/16/1742918502.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/17/1742922111.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/18/1742925734.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/19/1742929348.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/20/1742932961.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/21/1742936567.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/22/1742940181.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/084/23/1742943786.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/00/1742947405.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/01/1742951012.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/02/1742954619.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/03/1742958220.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/04/1742961829.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/05/1742965439.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/06/1742969054.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/07/1742972405.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/08/1742976018.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/09/1742979623.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/10/1742983225.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/11/1742986859.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/12/1742990463.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/13/1742994072.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/14/1742997681.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/15/1743001319.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/16/1743004929.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/17/1743008533.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/18/1743012159.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/19/1743015777.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/20/1743019395.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/21/1743023004.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/085/22/1743026607.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/00/1743033828.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/01/1743037430.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/02/1743041070.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/03/1743044681.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/04/1743048282.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/05/1743051885.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/06/1743055494.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/07/1743058807.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/08/1743062433.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/09/1743066044.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/10/1743069646.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/11/1743073255.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/12/1743076863.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/13/1743080476.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/14/1743084078.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/15/1743087688.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/16/1743091291.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/17/1743094909.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/18/1743098510.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/19/1743102133.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/20/1743105747.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/21/1743109387.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/22/1743113023.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/086/23/1743116631.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/00/1743120253.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/01/1743123862.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/02/1743127466.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/03/1743131070.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/04/1743134681.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/05/1743138285.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/06/1743141899.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/07/1743145203.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/08/1743148808.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/09/1743152426.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/10/1743156033.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/11/1743159636.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/12/1743163242.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/13/1743166851.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/14/1743170458.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/15/1743174067.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/16/1743177675.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/17/1743181290.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/18/1743184893.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/19/1743188500.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/20/1743192108.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/21/1743195718.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/22/1743199361.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/087/23/1743202966.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/00/1743206577.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/01/1743210182.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/02/1743213792.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/03/1743217393.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/04/1743220999.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/05/1743224602.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/06/1743228213.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/07/1743231621.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/08/1743235231.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/09/1743238841.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/10/1743242449.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/11/1743246058.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/12/1743249672.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/13/1743253310.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/14/1743256921.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/15/1743260527.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/16/1743264138.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/17/1743267743.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/18/1743271372.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/19/1743274972.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/20/1743278577.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/21/1743282186.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/22/1743285795.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/088/23/1743289438.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/00/1743293056.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/01/1743296663.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/02/1743300273.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/03/1743303881.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/04/1743307491.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/05/1743311106.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/06/1743314710.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/07/1743318012.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/08/1743321621.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/09/1743325228.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/10/1743328839.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/11/1743332453.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/12/1743336056.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/13/1743339678.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/14/1743343311.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/15/1743346920.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/16/1743350530.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/17/1743354139.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/18/1743357748.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/19/1743361350.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/20/1743364957.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/21/1743368558.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/22/1743372162.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/089/23/1743375764.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/00/1743379375.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/01/1743382997.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/02/1743386619.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/03/1743390266.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/04/1743393875.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/05/1743397486.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/06/1743401096.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/07/1743404406.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/08/1743408018.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/09/1743411620.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/10/1743415255.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/11/1743418864.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/12/1743422475.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/13/1743426083.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/14/1743429687.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/15/1743433290.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/16/1743436896.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/17/1743440499.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/18/1743444102.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/19/1743447708.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/20/1743451311.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/21/1743454949.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/22/1743458570.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/090/23/1743462174.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/091/00/1743465780.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/091/01/1743469389.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/091/02/1743473010.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/091/03/1743476613.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/091/04/1743480222.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/091/05/1743483827.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  },
+  {
+    "image": "https://tools.alertcalifornia.org/fireframes5/digitalpath-redis/Axis-CoronadoHillsS/2025/091/06/1743487431.000000000.jpg",
+    "ptz": {
+      "pan": 174.07000732421875,
+      "tilt": -0.17000000178813934,
+      "zoom": 1.0
+    }
+  }
+]
