@@ -70,7 +70,7 @@ def get_data(labels_csv, image_dir, replace_images = False):
 
     full_data = url_data.merge(image_df, left_on = "annotation_id", right_on="annotation_id")
 
-    full_data = full_data.get(["choice", "img_path", "annotation_id"])
+    full_data = full_data.get(["choice", "img_path", "annotation_id", "image"])
 
     return full_data
 
@@ -93,12 +93,40 @@ def get_train_val_test(data = None, df_dir = None, output_csvs = False, csv_outp
         if type(data) == type(None):
             raise ValueError("Must include dataframe to split")
         # X: features, y: target variable
-        X_train_val, X_test, y_train_val, y_test = train_test_split(data['img_path'], data['choice'], test_size=0.2, random_state=147)
-        X_train, X_val, y_train, y_val = train_test_split(X_train_val, y_train_val, test_size=0.25, random_state=147)
+        X_train_val, X_test, y_train_val, y_test = train_test_split(
+            data[['img_path', 'image', 'annotation_id']], 
+            data['choice'], 
+            test_size=0.2, 
+            random_state=147
+        )
+        X_train, X_val, y_train, y_val = train_test_split(
+            X_train_val, 
+            y_train_val, 
+            test_size=0.25, 
+            random_state=147
+        )
 
-        train = pd.DataFrame({"img_directory" : X_train, "label" : y_train}).reset_index(drop=True)
-        val = pd.DataFrame({"img_directory" : X_val, "label" : y_val}).reset_index(drop=True)
-        test = pd.DataFrame({"img_directory" : X_test, "label" : y_test}).reset_index(drop=True)
+
+        train = pd.DataFrame({
+            "img_directory": X_train['img_path'].values,
+            "img_url": X_train['image'].values,
+            "annotation_id": X_train['annotation_id'].values,
+            "label": y_train.values
+        }).reset_index(drop=True)
+        
+        val = pd.DataFrame({
+            "img_directory": X_val['img_path'].values,
+            "img_url": X_val['image'].values,
+            "annotation_id": X_val['annotation_id'].values,
+            "label": y_val.values
+        }).reset_index(drop=True)
+        
+        test = pd.DataFrame({
+            "img_directory": X_test['img_path'].values,
+            "img_url": X_test['image'].values,
+            "annotation_id": X_test['annotation_id'].values,
+            "label": y_test.values
+        }).reset_index(drop=True)
 
         if(output_csvs):
             train.to_csv(csv_output_dir + "train")
@@ -126,14 +154,19 @@ class CustomImageDataset(Dataset):
     def __getitem__(self, idx):
         image_path = self.data.iloc[idx]["img_directory"]
         label = int(self.data.iloc[idx]["label"])
+        img_url = self.data.iloc[idx]["img_url"]
     
         image = Image.open(image_path).convert('RGB')
         
         if self.transform:
             image = self.transform(image)
         
-        return {"pixel_values": image,
-                "labels": label}
+        return {
+            "pixel_values": image,
+            "labels": label, 
+            "img_path": image_path,
+            "img_url": img_url
+        }
     
 
 def get_datasets(train_df, val_df, test_df):
