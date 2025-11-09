@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import json
 from matplotlib.colors import ListedColormap
 from sklearn.inspection import DecisionBoundaryDisplay
 from sklearn.svm import SVC
@@ -76,3 +77,33 @@ def plot_with_decision_boundary(
     print(f"Accuracy: {(pred == y).mean()}")
 
     return svm_classifier
+
+def save_embeddings_to_json(
+    reduced_embeddings, labels, image_urls, a_ids,
+    output_path="embedding_data/d3_data.json"
+):
+    
+    reduced_embeddings = np.array(reduced_embeddings)
+    labels = np.array(labels)
+
+    if reduced_embeddings.shape[1] != 2:
+        raise ValueError("expected reduced_embeddings to have shape (n_samples, 2)")
+
+    if not (len(reduced_embeddings) == len(labels) == len(image_urls)):
+        raise ValueError("lengths of embeddings, labels, and image_urls must match")
+
+    d3_data = [
+        {
+            "x": float(x),
+            "y": float(y),
+            "label": int(label),
+            "img": str(img),
+            "a_id": str(a_id)
+        }
+        for (x, y), label, img, a_id in zip(reduced_embeddings, labels, image_urls, a_ids)
+    ]
+
+    with open(output_path, "w") as f:
+        json.dump(d3_data, f)
+
+    print(f"saved embeddings to {output_path}!")
