@@ -3,23 +3,21 @@ from pytorch_metric_learning.losses import TripletMarginLoss
 from pytorch_metric_learning.miners import TripletMarginMiner
 import torch
 from sklearn.decomposition import PCA
-
+import torch.nn as nn
 
 
 
 def train_model(model, num_epochs, train_data, loss_func, optimizer, device = "cuda", return_losses = True, save = True, name = "params", path = "weights/"):
     losses = []
     num_epochs = 10
-    for j in range(num_epochs):
-        for i, batch in enumerate(tqdm(train_data)):
+    for j in tqdm(range(num_epochs)):
+        for i, batch in enumerate(train_data):
 
             images = batch['pixel_values'].to(device)
             labels = batch['labels'].to(device)
-            print("Hanging on embeddings")
             embeddings = model(images)
             # Pass embeddings, labels, and mined triplets
             loss = loss_func(embeddings, labels)
-            print("Hanging on gradient calculation")
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
@@ -27,8 +25,8 @@ def train_model(model, num_epochs, train_data, loss_func, optimizer, device = "c
             losses.append(loss.item())
     if save == True:
         if name == "params":
-            name = f"Epochs-{num_epochs}_Loss-{loss_func.__name__}_Optimizer-{optimizer.__name__}.pth"
-        torch.save(torch.save(model.state_dict(), path + name))
+            name = f"Epochs-{num_epochs}_Loss-{loss_func.__name__}_Optimizer-{type(optimizer).__name__}.pth"
+        torch.save(model.state_dict(), path + name)
     
     if return_losses:
         return losses
@@ -46,14 +44,17 @@ def triplet_loss(margin = 0.19):
 
     return compute_triplet_loss
 
-def get_batch_embeddings(model, data, device = "cuda"):
+def get_batch_embeddings(model, data, device = "cuda", return_ids = False):
     batch = next(iter(data))
     images = batch['pixel_values'].to(device)
     labels = batch['labels']
 
     embedding = model(images)
 
-    return embedding, labels
+    if return_ids:
+        return embedding, labels, batch['annotation_id']
+    else:
+        return embedding, labels
 
 def reduce_pca(embeddings, labels, dimensions = 2):  
     pca_model = PCA(n_components=dimensions)
@@ -62,3 +63,14 @@ def reduce_pca(embeddings, labels, dimensions = 2):
     labels_np = labels.detach().numpy()
 
     return reduced_embedding, labels_np
+
+
+class ViTEmbeddingNet(nn.Module):
+    def __init__(self, vit_model):
+        super().__init__()
+        self.vit = vit_model
+        
+    def forward(self, pixel_values: torch.FloatTensor,labels: torch.LongTensor = None):
+        outputs = self.vit(pixel_values)
+        # Use [CLS] token (first token in the sequence) as embedding
+        return outputs.last_hidden_state[:, 0]

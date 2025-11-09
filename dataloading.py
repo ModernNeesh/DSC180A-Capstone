@@ -155,6 +155,7 @@ class CustomImageDataset(Dataset):
         image_path = self.data.iloc[idx]["img_directory"]
         label = int(self.data.iloc[idx]["label"])
         img_url = self.data.iloc[idx]["img_url"]
+        annotation_id = str(self.data.iloc[idx]["annotation_id"])
     
         image = Image.open(image_path).convert('RGB')
         
@@ -165,7 +166,8 @@ class CustomImageDataset(Dataset):
             "pixel_values": image,
             "labels": label, 
             "img_path": image_path,
-            "img_url": img_url
+            "img_url": img_url,
+            "annotation_id" : annotation_id
         }
     
 
