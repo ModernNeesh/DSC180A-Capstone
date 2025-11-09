@@ -58,11 +58,14 @@ def get_batch_embeddings(model, data, device = "cuda", return_ids = False):
 
 def reduce_pca(embeddings, labels, dimensions = 2):  
     pca_model = PCA(n_components=dimensions)
+    if type(embeddings) == torch.tensor:
+        reduced_embedding = pca_model.fit_transform(embeddings.to("cpu").detach().numpy())
+    else: 
+        reduced_embedding = pca_model.fit_transform(embeddings)
+    if type(labels) == torch.tensor:
+        labels = labels.detach().numpy()
 
-    reduced_embedding = pca_model.fit_transform(embeddings.to("cpu").detach().numpy())
-    labels_np = labels.detach().numpy()
-
-    return reduced_embedding, labels_np
+    return reduced_embedding, labels
 
 
 class ViTEmbeddingNet(nn.Module):

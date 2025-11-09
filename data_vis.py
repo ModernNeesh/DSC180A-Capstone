@@ -14,6 +14,8 @@ def plot_data(X, y, colors = {0 : "purple", 1 : "gold"} , names = {0 : "Normal",
     # Plot samples by color and add legend
     scatter = ax.scatter(X[:, 0], X[:, 1], s=75, c=y, label=list(map(lambda i: names[i], y)), cmap = custom_cmap, edgecolors="k")
     ax.legend(handles=scatter.legend_elements()[0], labels=["Normal", "Abnormal"], loc="upper right", title="Classes")
+    ax.set_xlabel("Principal Axis 1")
+    ax.set_ylabel("Principal Axis 2")
     ax.set_title("Samples in two-dimensional feature space")
     plt.show()
 
