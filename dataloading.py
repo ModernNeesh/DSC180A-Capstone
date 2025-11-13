@@ -18,7 +18,7 @@ def get_data_urls(labels_csv):
     
     """
     data = pd.read_csv(labels_csv)
-    data = data.get(["choice", "image", "annotation_id"]).fillna(0)
+    data = data.get(["choice", "image", "annotation_id", ]).fillna(0)
 
     data["choice"] = (data["choice"] != 0).astype(int)
 
@@ -71,6 +71,7 @@ def get_data(labels_csv, image_dir, replace_images = False):
     full_data = url_data.merge(image_df, left_on = "annotation_id", right_on="annotation_id")
 
     full_data = full_data.get(["choice", "img_path", "annotation_id", "image"])
+    full_data['timestamp'] = full_data['image'].str.extract(r"https:\/\/tools\.alertcalifornia\.org\/fireframes5\/digitalpath-redis\/[^\/]+\/\d{4}\/\d{3}\/\d{2}\/(\d+)\.")
 
     return full_data
 
@@ -94,7 +95,7 @@ def get_train_val_test(data = None, df_dir = None, output_csvs = False, csv_outp
             raise ValueError("Must include dataframe to split")
         # X: features, y: target variable
         X_train_val, X_test, y_train_val, y_test = train_test_split(
-            data[['img_path', 'image', 'annotation_id']], 
+            data[['img_path', 'image', 'annotation_id', 'timestamp']], 
             data['choice'], 
             test_size=0.2, 
             random_state=147
@@ -111,6 +112,7 @@ def get_train_val_test(data = None, df_dir = None, output_csvs = False, csv_outp
             "img_directory": X_train['img_path'].values,
             "img_url": X_train['image'].values,
             "annotation_id": X_train['annotation_id'].values,
+            "timestamp" : X_train['timestamp'].values,
             "label": y_train.values
         }).reset_index(drop=True)
         
@@ -118,6 +120,7 @@ def get_train_val_test(data = None, df_dir = None, output_csvs = False, csv_outp
             "img_directory": X_val['img_path'].values,
             "img_url": X_val['image'].values,
             "annotation_id": X_val['annotation_id'].values,
+            "timestamp" : X_val['timestamp'].values,
             "label": y_val.values
         }).reset_index(drop=True)
         
@@ -125,6 +128,7 @@ def get_train_val_test(data = None, df_dir = None, output_csvs = False, csv_outp
             "img_directory": X_test['img_path'].values,
             "img_url": X_test['image'].values,
             "annotation_id": X_test['annotation_id'].values,
+            "timestamp" : X_val['timestamp'].values,
             "label": y_test.values
         }).reset_index(drop=True)
 
