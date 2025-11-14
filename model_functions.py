@@ -9,7 +9,7 @@ import torch.nn as nn
 
 def train_model(model, num_epochs, train_data, loss_func, optimizer, device = "cuda", return_losses = True, save = True, name = "params", path = "weights/"):
     losses = []
-    num_epochs = 10
+    num_epochs = 5
     for j in tqdm(range(num_epochs)):
         for i, batch in enumerate(train_data):
 
@@ -58,11 +58,11 @@ def get_batch_embeddings(model, data, device = "cuda", return_ids = False):
 
 def reduce_pca(embeddings, labels, dimensions = 2):  
     pca_model = PCA(n_components=dimensions)
-    if type(embeddings) == torch.tensor:
+    if type(embeddings) == torch.Tensor:
         reduced_embedding = pca_model.fit_transform(embeddings.to("cpu").detach().numpy())
     else: 
         reduced_embedding = pca_model.fit_transform(embeddings)
-    if type(labels) == torch.tensor:
+    if type(labels) == torch.Tensor:
         labels = labels.detach().numpy()
 
     return reduced_embedding, labels
