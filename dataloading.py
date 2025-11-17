@@ -3,11 +3,14 @@ import urllib.request
 import os
 from sklearn.model_selection import train_test_split
 import time
+import torch
+import chromadb
 from tqdm import tqdm
 from torchvision import transforms
 from PIL import Image
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
+import gc
 
 
 
@@ -182,3 +185,64 @@ def get_datasets(train_df, val_df, test_df):
     test_dataset = CustomImageDataset(test_df, transform=transform)
 
     return train_dataset, val_dataset, test_dataset
+
+
+#Save all the embeddings from a model to a ChromaDB dataset 
+def save_full_embeddings(model, data, collection_name, persist_directory = "embedding_data/", device = "cuda"):
+    """
+    model: The encoder to encode the images with
+    data: The image dataset to get embeddings from
+    collection_name: The name of the ChromaDB dataset
+    persistent_directory: The path of the ChromaDB dataset
+    """
+    client = chromadb.PersistentClient(path=persist_directory)
+    collection = client.create_collection(name=collection_name)
+
+    for batch in data:
+        images = batch['pixel_values'].to(device)
+        annotation_ids = batch['annotation_id']
+
+        embedding = model(images)
+
+        collection.add(
+            embeddings=embedding.tolist(),
+            ids = annotation_ids
+        )
+
+        del embedding
+        del images
+        del annotation_ids
+
+        torch.cuda.empty_cache()
+        gc.collect()
+
+
+
+
+#Load all the embeddings from a ChromaDB dataset 
+def load_full_embeddings(original_df, collection_name, persist_directory = "embedding_data/"):
+    """
+    persistent_directory: The path of the ChromaDB dataset
+    collection_name: The name of the ChromaDB dataset
+    original_df: The name of the dataframe containing the ids, labels, and urls of the images in the dataset
+    """
+
+    client = chromadb.PersistentClient(path=persist_directory)
+    collection = client.get_collection(name=collection_name)
+
+    db_output = collection.get(ids = original_df['annotation_id'].astype(str).tolist(), include = ['embeddings'])
+    embeddings = db_output['embeddings']
+    labels = original_df['label']
+
+    db_df = pd.DataFrame(embeddings)
+    db_df['ids'] = db_output['ids']
+    db_df['ids'] = db_df['ids'].astype('int64')
+
+    db_df = db_df.merge(original_df, left_on = 'ids', right_on='annotation_id')
+
+    embeddings = db_df.filter(items = range(0, 768))
+    labels = db_df['label']
+    img_urls = db_df['img_url']
+    a_ids = db_df['annotation_id']
+
+    return embeddings, labels, img_urls, a_ids
