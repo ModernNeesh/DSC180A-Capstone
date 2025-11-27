@@ -1,3 +1,4 @@
+from transformers import ViTModel, ViTImageProcessor
 from tqdm import tqdm
 from pytorch_metric_learning.losses import TripletMarginLoss
 from pytorch_metric_learning.miners import TripletMarginMiner
@@ -101,3 +102,33 @@ class ViTEmbeddingNet(nn.Module):
         outputs = self.vit(pixel_values)
         # Use [CLS] token (first token in the sequence) as embedding
         return outputs.last_hidden_state[:, 0]
+    
+#Classification head for model
+class ClassificationHead(nn.Module):
+    def __init__(self, input_dim = 768, num_classes = 2, hidden_dim=128):
+        super().__init__()
+        self.norm = nn.LayerNorm(input_dim)
+        self.head = nn.Sequential(
+            nn.Linear(input_dim, hidden_dim),
+            nn.ReLU(), # or nn.GELU(), etc.
+            nn.Linear(hidden_dim, num_classes)
+        )
+    def forward(self, x):
+        x = self.norm(x)
+        return self.head(x)
+    
+#Puts encoder and classification head together
+class FullModel(nn.Module):
+    def __init__(self, encoder, classification_head):
+        self.encoder = encoder
+        self.head = classification_head
+
+
+    def forward(self, pixel_values: torch.FloatTensor,labels: torch.LongTensor = None):
+        embeddings = self.encoder(pixel_values, labels)
+        return self.head(embeddings)
+
+def create_encoder(model_name = "google/vit-base-patch16-224"):
+    model_name = "google/vit-base-patch16-224"
+    vit = ViTModel.from_pretrained(model_name, torch_dtype=torch.float32)
+    return ViTEmbeddingNet(vit)

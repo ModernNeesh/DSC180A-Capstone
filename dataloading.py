@@ -176,6 +176,24 @@ class CustomImageDataset(Dataset):
             "img_url": img_url,
             "annotation_id" : annotation_id
         }
+
+class CustomEmbeddingDataset(Dataset):
+    def __init__(self, embeddings, labels):
+        self.data = embeddings.merge(labels, left_index=True, right_index=True)
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        embedding = self.data.filter(items = range(0, 768)).iloc[idx].to_numpy()
+        label = self.data['label'].iloc[idx]
+
+        
+        return {
+            "embeddings": embedding,
+            "labels": label, 
+        }
+    
     
 
 def get_datasets(train_df, val_df, test_df):
