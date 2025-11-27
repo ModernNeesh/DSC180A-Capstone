@@ -130,5 +130,5 @@ class FullModel(nn.Module):
 
 def create_encoder(model_name = "google/vit-base-patch16-224"):
     model_name = "google/vit-base-patch16-224"
-    vit = ViTModel.from_pretrained(model_name, torch_dtype=torch.float32)
+    vit = ViTModel.from_pretrained(model_name, dtype=torch.float32)
     return ViTEmbeddingNet(vit)
