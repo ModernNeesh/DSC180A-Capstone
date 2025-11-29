@@ -3,6 +3,7 @@ import argparse
 import os
 from torch.utils.data import DataLoader
 import torch
+import torch.optim as optim
 
 #library functions
 import helper_code.dataloading as dataloading
@@ -77,8 +78,6 @@ encoder.eval()
 
 #Save embeddings
 
-collection_name = 
-
 dataloading.save_full_embeddings(encoder, train_dataloader, 
                      "train_embeddings", persist_directory = args.collection_dir, 
                      device = args.device)
@@ -87,15 +86,59 @@ dataloading.save_full_embeddings(encoder, val_dataloader,
                      "val_embeddings", persist_directory = args.collection_dir, 
                      device = args.device)
 
+#Embeddings of training data, used to train the classification head
 train_embeddings, train_labels, _, _ = dataloading.load_full_embeddings(train, "train_embeddings", persist_directory = args.collection_dir)
-
-val_embeddings, val_labels, _, _ = dataloading.load_full_embeddings(val, "val_embeddings", persist_directory = args.collection_dir)
-
 train_embedding_dataset = dataloading.CustomEmbeddingDataset(train_embeddings, train_labels)
 train_embedding_dataloader = DataLoader(train_embedding_dataset, batch_size=32, shuffle=True, pin_memory=True)
 
+#Embeddings of validation data, used to display results
+val_embeddings, val_labels, _, _ = dataloading.load_full_embeddings(val, "val_embeddings", persist_directory = args.collection_dir)
 val_embedding_dataset = dataloading.CustomEmbeddingDataset(val_embeddings, val_labels)
 val_embedding_dataloader = DataLoader(val_embedding_dataset, batch_size=32, shuffle=True, pin_memory=True)
 
 
+#Train the classification head
+
+classification_head = model_functions.ClassificationHead()
+classification_head.to(device)
+
+head_criterion = nn.CrossEntropyLoss()
+head_optimizer = optim.Adam(classification_head.parameters(), lr=1e-4) # Optimize only the new head
+
+head_name = args.model_path + args.model_name + "_head"
+
+if args.model_train:
+    num_epochs = 1
+    for epoch in range(num_epochs):
+        classification_head.train() # Set model to training mode
+        for batch in train_embedding_dataloader:
+            embeddings = batch['embeddings'].to(device).float()
+            labels = batch['labels'].to(device).long()
+
+            optimizer.zero_grad()
+            outputs = classification_head(embeddings)
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+    torch.save(classification_head.state_dict(), head_name)
+else:
+    classification_head.load_state_dict(torch.load(head_name, weights_only=True))
+
+#Report training and validation accuracy
+classification_head.eval()
+
+def get_accuracy(embeddings, labels, model):
+    embeddings_tensor = torch.Tensor(embeddings.to_numpy()).to(device)
+
+    outputs = model(embeddings_tensor)
+
+    labels_tensor = torch.Tensor(labels).to(device)
+
+    accuracy = (torch.argmax(outputs, dim = -1) == labels_tensor).float().mean().item()
+
+    return accuracy
+
+
+print(f"Training accuracy: {get_accuracy(train_embeddings, train_labels, classification_head)}")
+print(f"Validation accuracy: {get_accuracy(val_embeddings, val_labels, classification_head)}")
 
