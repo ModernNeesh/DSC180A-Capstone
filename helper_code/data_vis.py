@@ -7,6 +7,7 @@ from sklearn.svm import SVC
 
 
 
+#Plot the data in a two dimensional feature space
 def plot_data(X, y, colors = {0 : "purple", 1 : "gold"} , names = {0 : "Normal", 1 : "Abnormal"}):
     fig, ax = plt.subplots(figsize=(8, 6))
 
@@ -22,10 +23,15 @@ def plot_data(X, y, colors = {0 : "purple", 1 : "gold"} , names = {0 : "Normal",
 
 
 
+#Plot the data in a two dimensional feature space and fit an SVM classifier to it
 def plot_with_decision_boundary(
-    kernel, X, y, ax=None, colors = {0 : "purple", 1 : "gold"}, names = {0 : "Normal", 1 : "Abnormal"}
+    kernel, X, y, ax=None, colors = {0 : "purple", 1 : "gold"}, names = {0 : "Normal", 1 : "Abnormal"}, title = None
 ):
-    
+    """
+    kernel: Which kernel to use for the SVM classifier (rbf, linear, etc.)
+    X: Embeddings
+    y: Labels
+    """
     svm_classifier = SVC(kernel=kernel, C=1, gamma='scale')
     svm_classifier.fit(X, y)
 
@@ -61,17 +67,23 @@ def plot_with_decision_boundary(
         edgecolors="k",
     )
 
+
     # Plot samples by color and add legend
     scatter = ax.scatter(X[:, 0], X[:, 1], s=30, c=y, label=list(map(lambda i: names[i], y)), cmap = custom_cmap, edgecolors="k")
     ax.legend(handles=scatter.legend_elements()[0], labels=["Normal", "Abnormal"], loc="upper right", title="Classes")
 
     ax.set_xlabel("Principal Axis 1")
     ax.set_ylabel("Principal Axis 2")
-    ax.set_title(f" Decision boundaries of {kernel} kernel in SVC")
+
+    if title is None:
+        ax.set_title(f" Decision boundaries of {kernel} kernel in SVC")
+    else:
+        ax.set_title(title)
 
     if ax is None:
         plt.show()
 
+    #Show accuracy of predictions
     pred = svm_classifier.predict(X)
 
     print(f"Accuracy: {(pred == y).mean()}")

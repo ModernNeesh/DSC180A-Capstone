@@ -1,3 +1,4 @@
+from transformers import ViTModel, ViTImageProcessor
 from tqdm import tqdm
 from pytorch_metric_learning.losses import TripletMarginLoss
 from pytorch_metric_learning.miners import TripletMarginMiner
@@ -7,7 +8,20 @@ import torch.nn as nn
 
 
 
-def train_model(model, num_epochs, train_data, loss_func, optimizer, device = "cuda", return_losses = True, save = True, name = "params", path = "weights/"):
+#Train the model on the given data
+def train_model(model, train_data, num_epochs, loss_func, optimizer, device = "cuda", return_losses = True, save = True, name = "params", path = "weights/"):
+    """
+    model: The model to train
+    train_data: The data to train on
+    
+    num_epochs: How many epochs to train for
+    loss_func: The function with which to compute the loss
+    optimizer: The optimizer to use during training
+    return_losses: Whether to return the losses computed during training
+    save: Whether to save the model
+    name: Name of the model
+    path: Where to save the model
+    """
     losses = []
     num_epochs = 5
     for j in tqdm(range(num_epochs)):
@@ -31,7 +45,9 @@ def train_model(model, num_epochs, train_data, loss_func, optimizer, device = "c
     if return_losses:
         return losses
 
-def triplet_loss(margin = 0.19):
+
+#Returns triplet margin loss function with margin m
+def triplet_loss(margin = 0.2):
     def compute_triplet_loss(embeddings, labels):
         loss_func = TripletMarginLoss(margin=margin)
         miner = TripletMarginMiner(margin=margin, type_of_triplets="semihard")
@@ -44,7 +60,14 @@ def triplet_loss(margin = 0.19):
 
     return compute_triplet_loss
 
+
+#Get embeddings of first batch of data loader
 def get_batch_embeddings(model, data, device = "cuda", return_ids = False):
+    """
+    model: Model to get embeddings with
+    data: Dataloader to get embeddings from
+    return_ids: Whether to return annotation ids of the batch
+    """
     batch = next(iter(data))
     images = batch['pixel_values'].to(device)
     labels = batch['labels']
@@ -56,6 +79,8 @@ def get_batch_embeddings(model, data, device = "cuda", return_ids = False):
     else:
         return embedding, labels
 
+
+#Use PCA to reduce the dimensions of the given embeddings to the given number
 def reduce_pca(embeddings, labels, dimensions = 2):  
     pca_model = PCA(n_components=dimensions)
     if type(embeddings) == torch.Tensor:
@@ -67,7 +92,7 @@ def reduce_pca(embeddings, labels, dimensions = 2):
 
     return reduced_embedding, labels
 
-
+#Class to make the encoder. It has the ViT architecture, just removes the classification head.
 class ViTEmbeddingNet(nn.Module):
     def __init__(self, vit_model):
         super().__init__()
@@ -77,3 +102,33 @@ class ViTEmbeddingNet(nn.Module):
         outputs = self.vit(pixel_values)
         # Use [CLS] token (first token in the sequence) as embedding
         return outputs.last_hidden_state[:, 0]
+    
+#Classification head for model
+class ClassificationHead(nn.Module):
+    def __init__(self, input_dim = 768, num_classes = 2, hidden_dim=128):
+        super().__init__()
+        self.norm = nn.LayerNorm(input_dim)
+        self.head = nn.Sequential(
+            nn.Linear(input_dim, hidden_dim),
+            nn.ReLU(), # or nn.GELU(), etc.
+            nn.Linear(hidden_dim, num_classes)
+        )
+    def forward(self, x):
+        x = self.norm(x)
+        return self.head(x)
+    
+#Puts encoder and classification head together
+class FullModel(nn.Module):
+    def __init__(self, encoder, classification_head):
+        self.encoder = encoder
+        self.head = classification_head
+
+
+    def forward(self, pixel_values: torch.FloatTensor,labels: torch.LongTensor = None):
+        embeddings = self.encoder(pixel_values, labels)
+        return self.head(embeddings)
+
+def create_encoder(model_name = "google/vit-base-patch16-224"):
+    model_name = "google/vit-base-patch16-224"
+    vit = ViTModel.from_pretrained(model_name, dtype=torch.float32)
+    return ViTEmbeddingNet(vit)
