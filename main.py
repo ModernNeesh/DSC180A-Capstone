@@ -6,6 +6,8 @@ import torch
 import torch.optim as optim
 import torch.nn as nn
 from tqdm import tqdm
+
+from chromadb import PersistentClient as PersistentClient
 from chromadb.errors import InternalError as CollectionError
 
 #library functions
@@ -28,10 +30,10 @@ if __name__ == "__main__":
     parser.add_argument('--download-imgs', dest = "image_download", action='store_true', help = "Download new image data")
     parser.add_argument('--keep-imgs', dest='image_download', action='store_false', help = "Use existing image data")
 
-    parser.add_argument("--model_path", default = "weights/", 
+    parser.add_argument("--model-path", default = "weights/", 
                         help = "The directory to store the model to, or load it from")
     
-    parser.add_argument("--model_name", default = "model_weights.pth", 
+    parser.add_argument("--model-name", default = "model_weights.pth", 
                         help = "Name of the model's weights")
     
     parser.add_argument('--train-model', dest = "model_train", action='store_true', help = "Train a new model")
@@ -41,8 +43,6 @@ if __name__ == "__main__":
     parser.add_argument("--collection-dir", default = "embedding_data/", 
                         help = "The directory to save embeddings to")
     
-
-
     parser.set_defaults(image_download=False, model_train=True, embedding_save = True)
     
     args = parser.parse_args()
@@ -85,20 +85,29 @@ print(f"Model training complete; model is located at {args.model_path + args.mod
 #Save embeddings
 print("Saving embeddings...")
 
+
+
+client = PersistentClient(path=args.collection_dir) 
+
 try:
-    dataloading.save_full_embeddings(encoder, train_dataloader, 
+    client.delete_collection(name="train_embeddings")
+except CollectionError:
+    pass
+
+try:
+    client.delete_collection(name="val_embeddings")
+except CollectionError:
+    pass
+
+dataloading.save_full_embeddings(encoder, train_dataloader, 
                         "train_embeddings", persist_directory = args.collection_dir, 
                         device = args.device)
-except CollectionError:
-    pass
 
-try:
-    dataloading.save_full_embeddings(encoder, val_dataloader, 
+
+dataloading.save_full_embeddings(encoder, val_dataloader, 
                         "val_embeddings", persist_directory = args.collection_dir, 
                         device = args.device)
-except CollectionError:
-    pass
-
+    
 #Embeddings of training data, used to train the classification head
 train_embeddings, train_labels, _, _ = dataloading.load_full_embeddings(train, "train_embeddings", persist_directory = args.collection_dir)
 train_embedding_dataset = dataloading.CustomEmbeddingDataset(train_embeddings, train_labels)
@@ -124,7 +133,10 @@ head_optimizer = optim.Adam(classification_head.parameters(), lr=1e-4) # Optimiz
 
 head_name = args.model_path + args.model_name + "_head"
 
-if args.model_train:
+if (not args.model_train) and os.path.exists(head_name + ".pth"):
+    classification_head.load_state_dict(torch.load(head_name, weights_only=True))
+
+else:
     num_epochs = 1
     for epoch in range(num_epochs):
         classification_head.train() # Set model to training mode
@@ -139,9 +151,7 @@ if args.model_train:
             loss.backward()
             head_optimizer.step()
     torch.save(classification_head.state_dict(), head_name)
-else:
-    classification_head.load_state_dict(torch.load(head_name, weights_only=True))
-
+    
 classification_head.eval()
 
 print("Classification head training complete.")
