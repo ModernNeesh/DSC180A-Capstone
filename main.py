@@ -4,6 +4,8 @@ import os
 from torch.utils.data import DataLoader
 import torch
 import torch.optim as optim
+import torch.nn as nn
+import tqdm
 
 #library functions
 import helper_code.dataloading as dataloading
@@ -28,7 +30,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_path", default = "weights/", 
                         help = "The directory to store the model to, or load it from")
     
-    parser.add_argument("--model_name", default = "model_weights_camera_11-17-25.pth", 
+    parser.add_argument("--model_name", default = "model_weights.pth", 
                         help = "Name of the model's weights")
     
     parser.add_argument('--train-model', dest = "model_train", action='store_true', help = "Train a new model")
@@ -43,10 +45,11 @@ if __name__ == "__main__":
     
 
 
-    parser.set_defaults(image_download=False, model_train=False, embedding_save = True)
+    parser.set_defaults(image_download=False, model_train=True, embedding_save = True)
     
     args = parser.parse_args()
 
+print("Loading data...")
 #Load the data
 labels_csv = args.camera_data_dir + args.labels_csv_name
 data = dataloading.get_data(labels_csv, args.image_dir, replace_images = args.image_download)
@@ -59,7 +62,10 @@ train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True, pin_me
 val_dataloader = DataLoader(val_dataset, batch_size=32, shuffle=True, pin_memory=True)
 
 
+print(f"Data loading complete.")
 #Train the model
+print(f"Training model {args.model_name}...")
+
 encoder = model_functions.create_encoder()
 encoder.to(args.device)
 
@@ -76,7 +82,10 @@ else:
     encoder.load_state_dict(torch.load(args.model_path + args.model_name, weights_only=True))
 encoder.eval()
 
+
+print(f"Model training complete; model is located at {args.model_path + args.model_name}.")
 #Save embeddings
+print("Saving embeddings...")
 
 dataloading.save_full_embeddings(encoder, train_dataloader, 
                      "train_embeddings", persist_directory = args.collection_dir, 
@@ -97,10 +106,14 @@ val_embedding_dataset = dataloading.CustomEmbeddingDataset(val_embeddings, val_l
 val_embedding_dataloader = DataLoader(val_embedding_dataset, batch_size=32, shuffle=True, pin_memory=True)
 
 
+print(f"Embedding loading complete. Training and validation data embeddings are saved at {args.collection_dir} under the \
+    names 'train_embeddings' and 'val_embeddings' respectively.")
 #Train the classification head
+print("Training classification head...")
+
 
 classification_head = model_functions.ClassificationHead()
-classification_head.to(device)
+classification_head.to(args.device)
 
 head_criterion = nn.CrossEntropyLoss()
 head_optimizer = optim.Adam(classification_head.parameters(), lr=1e-4) # Optimize only the new head
@@ -111,28 +124,32 @@ if args.model_train:
     num_epochs = 1
     for epoch in range(num_epochs):
         classification_head.train() # Set model to training mode
-        for batch in train_embedding_dataloader:
-            embeddings = batch['embeddings'].to(device).float()
-            labels = batch['labels'].to(device).long()
 
-            optimizer.zero_grad()
+        for batch in tqdm(train_embedding_dataloader, desc = f"Processing batches in epoch {epoch}"):
+            embeddings = batch['embeddings'].to(args.device).float()
+            labels = batch['labels'].to(args.device).long()
+
+            head_optimizer.zero_grad()
             outputs = classification_head(embeddings)
-            loss = criterion(outputs, labels)
+            loss = head_criterion(outputs, labels)
             loss.backward()
-            optimizer.step()
+            head_optimizer.step()
     torch.save(classification_head.state_dict(), head_name)
 else:
     classification_head.load_state_dict(torch.load(head_name, weights_only=True))
 
-#Report training and validation accuracy
 classification_head.eval()
 
+print("Classification head training complete.")
+#Report training and validation accuracy
+
+
 def get_accuracy(embeddings, labels, model):
-    embeddings_tensor = torch.Tensor(embeddings.to_numpy()).to(device)
+    embeddings_tensor = torch.Tensor(embeddings.to_numpy()).to(args.device)
 
     outputs = model(embeddings_tensor)
 
-    labels_tensor = torch.Tensor(labels).to(device)
+    labels_tensor = torch.Tensor(labels).to(args.device)
 
     accuracy = (torch.argmax(outputs, dim = -1) == labels_tensor).float().mean().item()
 
