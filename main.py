@@ -5,7 +5,8 @@ from torch.utils.data import DataLoader
 import torch
 import torch.optim as optim
 import torch.nn as nn
-import tqdm
+from tqdm import tqdm
+from chromadb.errors import InternalError as CollectionError
 
 #library functions
 import helper_code.dataloading as dataloading
@@ -39,9 +40,6 @@ if __name__ == "__main__":
 
     parser.add_argument("--collection-dir", default = "embedding_data/", 
                         help = "The directory to save embeddings to")
-
-    parser.add_argument('--get-embeddings', dest = "embedding_save", action='store_true', help = "Save the embedding data")
-    parser.add_argument('--load-embeddings', dest='embedding_save', action='store_false', help = "Load existing embedding data")
     
 
 
@@ -87,13 +85,19 @@ print(f"Model training complete; model is located at {args.model_path + args.mod
 #Save embeddings
 print("Saving embeddings...")
 
-dataloading.save_full_embeddings(encoder, train_dataloader, 
-                     "train_embeddings", persist_directory = args.collection_dir, 
-                     device = args.device)
+try:
+    dataloading.save_full_embeddings(encoder, train_dataloader, 
+                        "train_embeddings", persist_directory = args.collection_dir, 
+                        device = args.device)
+except CollectionError:
+    pass
 
-dataloading.save_full_embeddings(encoder, val_dataloader, 
-                     "val_embeddings", persist_directory = args.collection_dir, 
-                     device = args.device)
+try:
+    dataloading.save_full_embeddings(encoder, val_dataloader, 
+                        "val_embeddings", persist_directory = args.collection_dir, 
+                        device = args.device)
+except CollectionError:
+    pass
 
 #Embeddings of training data, used to train the classification head
 train_embeddings, train_labels, _, _ = dataloading.load_full_embeddings(train, "train_embeddings", persist_directory = args.collection_dir)
