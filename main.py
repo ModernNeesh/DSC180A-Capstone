@@ -4,6 +4,11 @@ import os
 from torch.utils.data import DataLoader
 import torch
 import torch.optim as optim
+import torch.nn as nn
+from tqdm import tqdm
+
+from chromadb import PersistentClient as PersistentClient
+from chromadb.errors import InternalError as CollectionError
 
 #library functions
 import helper_code.dataloading as dataloading
@@ -25,10 +30,10 @@ if __name__ == "__main__":
     parser.add_argument('--download-imgs', dest = "image_download", action='store_true', help = "Download new image data")
     parser.add_argument('--keep-imgs', dest='image_download', action='store_false', help = "Use existing image data")
 
-    parser.add_argument("--model_path", default = "weights/", 
+    parser.add_argument("--model-path", default = "weights/", 
                         help = "The directory to store the model to, or load it from")
     
-    parser.add_argument("--model_name", default = "model_weights_camera_11-17-25.pth", 
+    parser.add_argument("--model-name", default = "model_weights.pth", 
                         help = "Name of the model's weights")
     
     parser.add_argument('--train-model', dest = "model_train", action='store_true', help = "Train a new model")
@@ -37,16 +42,12 @@ if __name__ == "__main__":
 
     parser.add_argument("--collection-dir", default = "embedding_data/", 
                         help = "The directory to save embeddings to")
-
-    parser.add_argument('--get-embeddings', dest = "embedding_save", action='store_true', help = "Save the embedding data")
-    parser.add_argument('--load-embeddings', dest='embedding_save', action='store_false', help = "Load existing embedding data")
     
-
-
-    parser.set_defaults(image_download=False, model_train=False, embedding_save = True)
+    parser.set_defaults(image_download=False, model_train=True, embedding_save = True)
     
     args = parser.parse_args()
 
+print("Loading data...")
 #Load the data
 labels_csv = args.camera_data_dir + args.labels_csv_name
 data = dataloading.get_data(labels_csv, args.image_dir, replace_images = args.image_download)
@@ -59,7 +60,10 @@ train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True, pin_me
 val_dataloader = DataLoader(val_dataset, batch_size=32, shuffle=True, pin_memory=True)
 
 
+print(f"Data loading complete.")
 #Train the model
+print(f"Training model {args.model_name}...")
+
 encoder = model_functions.create_encoder()
 encoder.to(args.device)
 
@@ -76,16 +80,34 @@ else:
     encoder.load_state_dict(torch.load(args.model_path + args.model_name, weights_only=True))
 encoder.eval()
 
+
+print(f"Model training complete; model is located at {args.model_path + args.model_name}.")
 #Save embeddings
+print("Saving embeddings...")
+
+
+
+client = PersistentClient(path=args.collection_dir) 
+
+try:
+    client.delete_collection(name="train_embeddings")
+except CollectionError:
+    pass
+
+try:
+    client.delete_collection(name="val_embeddings")
+except CollectionError:
+    pass
 
 dataloading.save_full_embeddings(encoder, train_dataloader, 
-                     "train_embeddings", persist_directory = args.collection_dir, 
-                     device = args.device)
+                        "train_embeddings", persist_directory = args.collection_dir, 
+                        device = args.device)
+
 
 dataloading.save_full_embeddings(encoder, val_dataloader, 
-                     "val_embeddings", persist_directory = args.collection_dir, 
-                     device = args.device)
-
+                        "val_embeddings", persist_directory = args.collection_dir, 
+                        device = args.device)
+    
 #Embeddings of training data, used to train the classification head
 train_embeddings, train_labels, _, _ = dataloading.load_full_embeddings(train, "train_embeddings", persist_directory = args.collection_dir)
 train_embedding_dataset = dataloading.CustomEmbeddingDataset(train_embeddings, train_labels)
@@ -97,42 +119,51 @@ val_embedding_dataset = dataloading.CustomEmbeddingDataset(val_embeddings, val_l
 val_embedding_dataloader = DataLoader(val_embedding_dataset, batch_size=32, shuffle=True, pin_memory=True)
 
 
+print(f"Embedding loading complete. Training and validation data embeddings are saved at {args.collection_dir} under the \
+    names 'train_embeddings' and 'val_embeddings' respectively.")
 #Train the classification head
+print("Training classification head...")
+
 
 classification_head = model_functions.ClassificationHead()
-classification_head.to(device)
+classification_head.to(args.device)
 
 head_criterion = nn.CrossEntropyLoss()
 head_optimizer = optim.Adam(classification_head.parameters(), lr=1e-4) # Optimize only the new head
 
 head_name = args.model_path + args.model_name + "_head"
 
-if args.model_train:
+if (not args.model_train) and os.path.exists(head_name + ".pth"):
+    classification_head.load_state_dict(torch.load(head_name, weights_only=True))
+
+else:
     num_epochs = 1
     for epoch in range(num_epochs):
         classification_head.train() # Set model to training mode
-        for batch in train_embedding_dataloader:
-            embeddings = batch['embeddings'].to(device).float()
-            labels = batch['labels'].to(device).long()
 
-            optimizer.zero_grad()
+        for batch in tqdm(train_embedding_dataloader, desc = f"Processing batches in epoch {epoch}"):
+            embeddings = batch['embeddings'].to(args.device).float()
+            labels = batch['labels'].to(args.device).long()
+
+            head_optimizer.zero_grad()
             outputs = classification_head(embeddings)
-            loss = criterion(outputs, labels)
+            loss = head_criterion(outputs, labels)
             loss.backward()
-            optimizer.step()
+            head_optimizer.step()
     torch.save(classification_head.state_dict(), head_name)
-else:
-    classification_head.load_state_dict(torch.load(head_name, weights_only=True))
-
-#Report training and validation accuracy
+    
 classification_head.eval()
 
+print("Classification head training complete.")
+#Report training and validation accuracy
+
+
 def get_accuracy(embeddings, labels, model):
-    embeddings_tensor = torch.Tensor(embeddings.to_numpy()).to(device)
+    embeddings_tensor = torch.Tensor(embeddings.to_numpy()).to(args.device)
 
     outputs = model(embeddings_tensor)
 
-    labels_tensor = torch.Tensor(labels).to(device)
+    labels_tensor = torch.Tensor(labels).to(args.device)
 
     accuracy = (torch.argmax(outputs, dim = -1) == labels_tensor).float().mean().item()
 

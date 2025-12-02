@@ -24,9 +24,11 @@ def train_model(model, train_data, num_epochs, loss_func, optimizer, device = "c
     """
     losses = []
     num_epochs = 5
-    for j in tqdm(range(num_epochs)):
-        for i, batch in enumerate(train_data):
+    for epoch in range(num_epochs):
 
+        data_pbar = tqdm(enumerate(train_data))
+        for i, batch in data_pbar:
+            data_pbar.set_description(f"Processing batch {i} in epoch {epoch}")
             images = batch['pixel_values'].to(device)
             labels = batch['labels'].to(device)
             embeddings = model(images)
