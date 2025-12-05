@@ -38,16 +38,24 @@ if __name__ == "__main__":
     
     parser.add_argument('--train-model', dest = "model_train", action='store_true', help = "Train a new model")
     parser.add_argument('--load-model', dest='model_train', action='store_false', help = "Load an existing model's weights")
-    parser.add_argument('--device', default = "cuda", choices = ["cuda", "cpu"], help = "Which device to use")
+    parser.add_argument('--device', default="auto", choices=["auto", "cuda", "cpu"], help = "Which device to use")
 
     parser.add_argument("--collection-dir", default = "embedding_data/", 
                         help = "The directory to save embeddings to")
     
+
     parser.set_defaults(image_download=False, model_train=True, embedding_save = True)
     
     args = parser.parse_args()
 
-print("Loading data...")
+    if args.device == "auto":
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+    else:
+        device = args.device
+
+    print("Using device:", device)
+
+
 #Load the data
 labels_csv = args.camera_data_dir + args.labels_csv_name
 data = dataloading.get_data(labels_csv, args.image_dir, replace_images = args.image_download)
@@ -65,7 +73,7 @@ print(f"Data loading complete.")
 print(f"Training model {args.model_name}...")
 
 encoder = model_functions.create_encoder()
-encoder.to(args.device)
+encoder.to(device)
 
 
 if args.model_train:
@@ -75,9 +83,9 @@ if args.model_train:
 
     model_functions.train_model(encoder, train_data=train_dataloader, 
                                 num_epochs=num_epochs, loss_func=loss_func, 
-                                optimizer=optimizer, name = args.model_name, path = args.model_path)
+                                optimizer=optimizer, name = args.model_name, path = args.model_path, device=device)
 else:
-    encoder.load_state_dict(torch.load(args.model_path + args.model_name, weights_only=True))
+    encoder.load_state_dict(torch.load(args.model_path + args.model_name, map_location=device, weights_only=True))
 encoder.eval()
 
 
@@ -151,7 +159,9 @@ else:
             loss.backward()
             head_optimizer.step()
     torch.save(classification_head.state_dict(), head_name)
-    
+
+
+#Report training and validation accuracy
 classification_head.eval()
 
 print("Classification head training complete.")

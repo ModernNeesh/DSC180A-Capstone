@@ -9,7 +9,7 @@ import torch.nn as nn
 
 
 #Train the model on the given data
-def train_model(model, train_data, num_epochs, loss_func, optimizer, device = "cuda", return_losses = True, save = True, name = "params", path = "weights/"):
+def train_model(model, train_data, num_epochs, loss_func, optimizer, device, return_losses=True, save=True, name="params", path="weights/"):
     """
     model: The model to train
     train_data: The data to train on
@@ -64,7 +64,7 @@ def triplet_loss(margin = 0.2):
 
 
 #Get embeddings of first batch of data loader
-def get_batch_embeddings(model, data, device = "cuda", return_ids = False):
+def get_batch_embeddings(model, data, device, return_ids=False):
     """
     model: Model to get embeddings with
     data: Dataloader to get embeddings from

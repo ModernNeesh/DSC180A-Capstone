@@ -4,22 +4,94 @@ import json
 from matplotlib.colors import ListedColormap
 from sklearn.inspection import DecisionBoundaryDisplay
 from sklearn.svm import SVC
+from PIL import Image
+import requests
+from io import BytesIO
+import math
+import random
+from matplotlib.lines import Line2D
+
 
 
 
 #Plot the data in a two dimensional feature space
-def plot_data(X, y, colors = {0 : "purple", 1 : "gold"} , names = {0 : "Normal", 1 : "Abnormal"}):
-    fig, ax = plt.subplots(figsize=(8, 6))
+def plot_data(X, y, pcx=1, pcy=2,
+              colors = {0 : "purple", 1 : "gold"} , 
+              names = {0 : "Normal", 1 : "Abnormal"},
+              size=(8, 6), highlight_idx=None):
+    
+    fig, ax = plt.subplots(figsize=size)
 
     custom_cmap = ListedColormap(list(colors.values()))
     
     # Plot samples by color and add legend
-    scatter = ax.scatter(X[:, 0], X[:, 1], s=75, c=y, label=list(map(lambda i: names[i], y)), cmap = custom_cmap, edgecolors="k")
-    ax.legend(handles=scatter.legend_elements()[0], labels=["Normal", "Abnormal"], loc="upper right", title="Classes")
-    ax.set_xlabel("Principal Axis 1")
-    ax.set_ylabel("Principal Axis 2")
-    ax.set_title("Samples in two-dimensional feature space")
-    plt.show()
+    scatter = ax.scatter(X[:, pcx-1], X[:, pcy-1], s=40, c=y, label=list(map(lambda i: names[i], y)), cmap = custom_cmap, alpha=0.7)
+    handles = [
+                Line2D([0], [0], marker='o', color='w',
+                    markerfacecolor=colors[i], markersize=8, label=names[i])
+                for i in colors
+            ]
+
+    ax.legend(handles=handles, title="Classes", loc="upper right")
+
+    if highlight_idx is not None:
+        for idx in highlight_idx:
+            ax.scatter(X[idx, pcx-1], X[idx, pcy-1],
+                       s=70, facecolors="none", edgecolors="red", linewidths=1.5)
+
+def plot_density_by_class(X, y, pc=1,
+                          colors={0: "purple", 1: "gold"},
+                          names={0: "Normal", 1: "Abnormal"},
+                          size=(8, 6), show_percentile=True,
+                          legend_order=[1,0]):
+                                 
+    plt.figure(figsize=size)
+
+
+    for cls in legend_order:
+        pc_vals = X[y == cls, pc-1]
+
+        plt.hist(
+            pc_vals,
+            bins=50,
+            density=True,
+            alpha=0.7,
+            label=names[cls], 
+            color=colors[cls]
+        )
+
+        if show_percentile:
+            p = 20 if cls == 0 else 80
+            threshold = np.percentile(pc_vals, p)
+
+            plt.axvline(
+                threshold,
+                color=colors[cls],
+                linestyle="--",
+                linewidth=2,
+                alpha=0.9
+            )
+
+            # annotate lines
+            plt.text(
+                threshold + 0.5,
+                0.22,
+                f"P{p}:({threshold:.2f})",
+                color=colors[cls],
+            )
+
+
+    # plt.legend(loc='upper right', title="Classes")
+
+
+def format_plot(title, xlabel, ylabel, png_name=None, save=True):
+    plt.title(title, pad=10)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.grid(True, alpha=0.3)
+    if save:
+        plt.savefig(f"{png_name.replace(' ', '_').lower()}.png", dpi=300)
+    plt.tight_layout()
 
 
 
@@ -119,3 +191,32 @@ def save_embeddings_to_json(
         json.dump(d3_data, f)
 
     print(f"saved embeddings to {output_path}!")
+
+
+def display_images_grid(img_urls, cols=4, figsize=(20, 20)):
+
+    n_images = len(img_urls)
+    rows = math.ceil(n_images / cols)
+    
+    fig_width = cols * 8
+    fig_height = rows * 5
+    
+    fig, axes = plt.subplots(rows, cols, figsize=(fig_width, fig_height),
+                             gridspec_kw={'wspace':0.05, 'hspace':0.05})
+    
+    axes = axes.flatten() if n_images > 1 else [axes]
+    
+    for ax, url in zip(axes, img_urls):
+        try:
+            response = requests.get(url)
+            img = Image.open(BytesIO(response.content))
+            ax.imshow(img, aspect='auto')  # fills the subplot
+            ax.axis('off')
+        except:
+            ax.axis('off')
+    
+    # hide any extra axes
+    for ax in axes[n_images:]:
+        ax.axis('off')
+    
+    plt.show()
