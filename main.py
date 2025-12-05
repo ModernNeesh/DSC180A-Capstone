@@ -99,22 +99,22 @@ client = PersistentClient(path=args.collection_dir)
 
 try:
     client.delete_collection(name="train_embeddings")
-except CollectionError:
+except Exception:
     pass
 
 try:
     client.delete_collection(name="val_embeddings")
-except CollectionError:
+except Exception:
     pass
 
 dataloading.save_full_embeddings(encoder, train_dataloader, 
                         "train_embeddings", persist_directory = args.collection_dir, 
-                        device = args.device)
+                        device = device)
 
 
 dataloading.save_full_embeddings(encoder, val_dataloader, 
                         "val_embeddings", persist_directory = args.collection_dir, 
-                        device = args.device)
+                        device = device)
     
 #Embeddings of training data, used to train the classification head
 train_embeddings, train_labels, _, _ = dataloading.load_full_embeddings(train, "train_embeddings", persist_directory = args.collection_dir)
@@ -134,7 +134,7 @@ print("Training classification head...")
 
 
 classification_head = model_functions.ClassificationHead()
-classification_head.to(args.device)
+classification_head.to(device)
 
 head_criterion = nn.CrossEntropyLoss()
 head_optimizer = optim.Adam(classification_head.parameters(), lr=1e-4) # Optimize only the new head
@@ -150,8 +150,8 @@ else:
         classification_head.train() # Set model to training mode
 
         for batch in tqdm(train_embedding_dataloader, desc = f"Processing batches in epoch {epoch}"):
-            embeddings = batch['embeddings'].to(args.device).float()
-            labels = batch['labels'].to(args.device).long()
+            embeddings = batch['embeddings'].to(device).float()
+            labels = batch['labels'].to(device).long()
 
             head_optimizer.zero_grad()
             outputs = classification_head(embeddings)
@@ -169,11 +169,11 @@ print("Classification head training complete.")
 
 
 def get_accuracy(embeddings, labels, model):
-    embeddings_tensor = torch.Tensor(embeddings.to_numpy()).to(args.device)
+    embeddings_tensor = torch.Tensor(embeddings.to_numpy()).to(device)
 
     outputs = model(embeddings_tensor)
 
-    labels_tensor = torch.Tensor(labels).to(args.device)
+    labels_tensor = torch.Tensor(labels).to(device)
 
     accuracy = (torch.argmax(outputs, dim = -1) == labels_tensor).float().mean().item()
 
