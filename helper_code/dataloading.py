@@ -87,7 +87,7 @@ def get_images_df(image_dir):
     """
     img_dir: The directory of the images
     """
-    img_paths = image_dir + pd.Series(os.listdir(image_dir))
+    img_paths = image_dir + pd.Series([path for path in os.listdir(image_dir) if path != ".gitkeep"])
     
     annotations = img_paths.str.extract(r"(\d+)")[0].astype(int).dropna()
 

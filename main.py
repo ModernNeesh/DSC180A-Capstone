@@ -46,7 +46,7 @@ if __name__ == "__main__":
                         help = "The directory to save embeddings to")
     
 
-    parser.set_defaults(image_download=False, model_train=True, embedding_save = True)
+    parser.set_defaults(image_download=True, model_train=True, embedding_save = True)
     
     args = parser.parse_args()
 
