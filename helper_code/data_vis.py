@@ -37,7 +37,7 @@ def plot_data(X, y, pcx=1, pcy=2,
     if highlight_idx is not None:
         for idx in highlight_idx:
             ax.scatter(X[idx, pcx-1], X[idx, pcy-1],
-                       s=70, facecolors="none", edgecolors="red", linewidths=1.5)
+                       s=80, facecolors="none", edgecolors="red", linewidths=2)
 
 def plot_density_by_class(X, y, pc=1,
                           colors={0: "purple", 1: "gold"},

@@ -29,7 +29,7 @@
   </footer>
 
   <script>
-    d3.json("embedding_data/d3_data.json").then(data => {
+    d3.json("embedding_data/pc2vspc3_d3.json").then(data => {
       if (!data || data.length === 0) {
         d3.select('#fallback').style('display', 'block')
           .text('No data found in d3_data.json.');
