@@ -16,6 +16,8 @@ import helper_code.data_vis as data_vis
 import helper_code.model_functions as model_functions
 
 
+torch.manual_seed(2346)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="A simple calculator script.")
     parser.add_argument("--camera-data-dir", default="camera_data/",
@@ -57,15 +59,18 @@ if __name__ == "__main__":
 
 
 #Load the data
+print(f"Loading data...")
 labels_csv = args.camera_data_dir + args.labels_csv_name
+
 data = dataloading.get_data(labels_csv, args.image_dir, replace_images = args.image_download)
 
 train, val, test = dataloading.get_train_val_test(data = data, output_csvs=True)
 
 train_dataset, val_dataset, test_dataset = dataloading.get_datasets(train, val, test)
 
-train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True, pin_memory=True)
-val_dataloader = DataLoader(val_dataset, batch_size=32, shuffle=True, pin_memory=True)
+train_dataloader = DataLoader(train_dataset, batch_size=64, shuffle=True, pin_memory=True)
+val_dataloader = DataLoader(val_dataset, batch_size=64, shuffle=True, pin_memory=True)
+test_dataloader = DataLoader(test_dataset, batch_size=64, shuffle=True, pin_memory=True)
 
 
 print(f"Data loading complete.")
@@ -78,7 +83,7 @@ encoder.to(device)
 
 if args.model_train:
     num_epochs = 1
-    loss_func = model_functions.triplet_loss(margin=0.18)
+    loss_func = model_functions.triplet_loss(margin=0.19)
     optimizer = optim.Adam(encoder.parameters(), lr=2e-5) 
 
     model_functions.train_model(encoder, train_data=train_dataloader, 
@@ -107,6 +112,11 @@ try:
 except Exception:
     pass
 
+try:
+    client.delete_collection(name="test_embeddings")
+except Exception:
+    pass
+
 dataloading.save_full_embeddings(encoder, train_dataloader, 
                         "train_embeddings", persist_directory = args.collection_dir, 
                         device = device)
@@ -115,20 +125,29 @@ dataloading.save_full_embeddings(encoder, train_dataloader,
 dataloading.save_full_embeddings(encoder, val_dataloader, 
                         "val_embeddings", persist_directory = args.collection_dir, 
                         device = device)
+
+dataloading.save_full_embeddings(encoder, test_dataloader, 
+                        "test_embeddings", persist_directory = args.collection_dir, 
+                        device = device)
+    
     
 #Embeddings of training data, used to train the classification head
 train_embeddings, train_labels, _, _ = dataloading.load_full_embeddings(train, "train_embeddings", persist_directory = args.collection_dir)
 train_embedding_dataset = dataloading.CustomEmbeddingDataset(train_embeddings, train_labels)
-train_embedding_dataloader = DataLoader(train_embedding_dataset, batch_size=32, shuffle=True, pin_memory=True)
+train_embedding_dataloader = DataLoader(train_embedding_dataset, batch_size=64, shuffle=True, pin_memory=True)
 
 #Embeddings of validation data, used to display results
 val_embeddings, val_labels, _, _ = dataloading.load_full_embeddings(val, "val_embeddings", persist_directory = args.collection_dir)
 val_embedding_dataset = dataloading.CustomEmbeddingDataset(val_embeddings, val_labels)
-val_embedding_dataloader = DataLoader(val_embedding_dataset, batch_size=32, shuffle=True, pin_memory=True)
+val_embedding_dataloader = DataLoader(val_embedding_dataset, batch_size=64, shuffle=True, pin_memory=True)
 
+#Embeddings of test data, used to evaluate classification head
+test_embeddings, test_labels, _, _ = dataloading.load_full_embeddings(test, "test_embeddings", persist_directory = args.collection_dir)
+test_embedding_dataset = dataloading.CustomEmbeddingDataset(test_embeddings, test_labels)
+test_embedding_dataloader = DataLoader(test_embedding_dataset, batch_size=64, shuffle=True, pin_memory=True)
 
-print(f"Embedding loading complete. Training and validation data embeddings are saved at {args.collection_dir} under the \
-    names 'train_embeddings' and 'val_embeddings' respectively.")
+print(f"Embedding loading complete. Training and test data embeddings are saved at {args.collection_dir} under the \
+    names 'train_embeddings' and 'test_embeddings' respectively.")
 #Train the classification head
 print("Training classification head...")
 
@@ -139,7 +158,7 @@ classification_head.to(device)
 head_criterion = nn.CrossEntropyLoss()
 head_optimizer = optim.Adam(classification_head.parameters(), lr=1e-4) # Optimize only the new head
 
-head_name = args.model_path + args.model_name + "_head"
+head_name = args.model_path + args.model_name[:-4] + "_head.pth"
 
 if (not args.model_train) and os.path.exists(head_name + ".pth"):
     classification_head.load_state_dict(torch.load(head_name, weights_only=True))
@@ -181,5 +200,5 @@ def get_accuracy(embeddings, labels, model):
 
 
 print(f"Training accuracy: {get_accuracy(train_embeddings, train_labels, classification_head)}")
-print(f"Validation accuracy: {get_accuracy(val_embeddings, val_labels, classification_head)}")
+print(f"Test accuracy: {get_accuracy(test_embeddings, test_labels, classification_head)}")
 

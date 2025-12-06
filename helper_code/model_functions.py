@@ -23,9 +23,7 @@ def train_model(model, train_data, num_epochs, loss_func, optimizer, device, ret
     path: Where to save the model
     """
     losses = []
-    num_epochs = 5
     for epoch in range(num_epochs):
-
         data_pbar = tqdm(enumerate(train_data))
         for i, batch in data_pbar:
             data_pbar.set_description(f"Processing batch {i} in epoch {epoch}")
