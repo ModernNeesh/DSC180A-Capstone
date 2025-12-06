@@ -89,7 +89,7 @@ def get_images_df(image_dir):
     """
     img_paths = image_dir + pd.Series(os.listdir(image_dir))
     
-    annotations = img_paths.str.extract(r"(\d+)")[0].astype(int)
+    annotations = img_paths.str.extract(r"(\d+)")[0].astype(int).dropna()
 
     return pd.DataFrame({"annotation_id" : annotations, 
                          "img_path" : img_paths})
