@@ -1,5 +1,5 @@
 import pandas as pd
-import urllib.request
+import requests
 import os
 from sklearn.model_selection import train_test_split
 import time
@@ -11,6 +11,9 @@ from PIL import Image
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 import gc
+from requests.adapters import HTTPAdapter, Retry
+
+
 
 
 
@@ -29,15 +32,54 @@ def get_data_urls(labels_csv):
 
 
 #Download the images from their URLs
-def download_images(data):
+def download_images(data, image_dir, replace_images):
     """
     data: The dataset of image urls, usually the output of the get_data_urls function
     """
+
+    # Set up a single persistent session (much faster + API friendly)
+    session = requests.Session()
+    session.headers.update({
+        'User-Agent': 'DSC180 Capstone B07: ALERTCalifornia'
+    })
+
+    # Add robust retry logic (prevents failures on 503 / 504 / timeouts)
+    retries = Retry(
+        total=5,
+        backoff_factor=0.5,
+        status_forcelist=[429, 500, 502, 503, 504]
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retries))
+
+    # Rate limits
+    BATCH_SIZE = 20     # number of images before resting
+    SLEEP_TIME = 1.5    # seconds to sleep after each batch
+
     for i in tqdm(range(len(data))):
-            img_path = f"camera_data/images/img_{data.iloc[i]['annotation_id']}.jpg"
-            urllib.request.urlretrieve(data.iloc[i]['image'], img_path)
-            if i%9 == 0:
-                time.sleep(2)
+        url = data.iloc[i]['image']
+        ann_id = data.iloc[i]['annotation_id']
+        img_path = f"{image_dir}img_{ann_id}.jpg"
+
+        # Skip if already downloaded
+        if os.path.exists(img_path):
+            if not replace_images:
+                continue
+            else:
+                os.remove(img_path)
+
+        try:
+            resp = session.get(url, timeout=10)
+            if resp.status_code == 200:
+                with open(img_path, "wb") as f:
+                    f.write(resp.content)
+        except Exception as e:
+            print(f"Error for ID {ann_id}: {e}")
+            continue
+
+        # Gentle rate limiting
+        if i % BATCH_SIZE == 0 and i != 0:
+            time.sleep(SLEEP_TIME)
+
 
 
 #Get a dataframe of the image paths and their corresponding annotation ids
@@ -45,9 +87,9 @@ def get_images_df(image_dir):
     """
     img_dir: The directory of the images
     """
-    img_paths = image_dir + pd.Series(os.listdir(image_dir))
+    img_paths = image_dir + pd.Series([path for path in os.listdir(image_dir) if path != ".gitkeep"])
     
-    annotations = img_paths.str.extract(r"(\d+)")[0].astype(int)
+    annotations = img_paths.str.extract(r"(\d+)")[0].astype(int).dropna()
 
     return pd.DataFrame({"annotation_id" : annotations, 
                          "img_path" : img_paths})
@@ -64,10 +106,7 @@ def get_data(labels_csv, image_dir, replace_images = False):
     """
     url_data = get_data_urls(labels_csv)
 
-    if(replace_images):
-        for img in os.listdir(image_dir):
-            os.remove(image_dir + img)
-        download_images(url_data)
+    download_images(url_data, image_dir, replace_images)
 
     image_df = get_images_df(image_dir)
 
